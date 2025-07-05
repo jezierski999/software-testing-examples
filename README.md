@@ -1,30 +1,50 @@
-"""
-Test case: Guest checkout redirects to login page
+# 🧪 Software Testing Examples
 
-This end-to-end test verifies that an unauthenticated (guest) user is redirected to the login page
-when attempting to proceed to checkout on the whey-protein.ch website.
+This repository contains practical examples of software testing using various tools, techniques, and programming languages.
 
-Test flow:
-1. Open the main store page.
-2. Search for the term "creatin".
-3. Ensure that search results are returned.
-4. Click on the "Creatin Monohydrat" product from the list.
-5. Verify that the product detail page has loaded.
-6. Click the "In den Warenkorb legen" (Add to Cart) button.
-7. Click the "Zur Kasse gehen" (Checkout) button.
-8. Assert that the user is redirected to the login page.
+The goal is to document and explore different approaches to software testing — from basic manual test scenarios to advanced automated test scripts.
 
-Technology stack:
-- Python
-- Selenium WebDriver (Firefox, via geckodriver)
-- Pytest-compatible function
-- Explicit waits via WebDriverWait and expected_conditions (EC)
+## 🔍 What You'll Find Here
 
+The repository is organized by testing type or tool. Each directory will contain focused examples for a given method or technology.
 
+Examples may include:
 
-Author: jezierski999@gmail.com
-"""
+- ✅ Unit Testing (e.g., Python `unittest`, Java `JUnit`)
+- ✅ Integration Testing
+- ✅ End-to-End (E2E) Testing (e.g., Selenium, Playwright)
+- ✅ Web UI Testing
+- ✅ API Testing (e.g., FastAPI + `pytest`, Postman collections)
+- ✅ Manual Test Case Templates
+- ✅ Test Automation Framework Snippets
+- ✅ Exploratory Testing Notes or Documentation
 
-## License
+Each example will typically include:
+
+- A short description
+- The test script or code
+- Technologies used
+- Optional `README.md` per subfolder
+
+## 🧰 Technologies & Tools
+
+This repo may include examples using:
+
+- Python (Pytest, Selenium, unittest)
+- JavaScript/TypeScript (Playwright, Cypress)
+- Java (JUnit, Selenium)
+- Bash or command-line automation
+- API testing tools (Postman, curl, HTTPie)
+- Markdown for test case documentation
+
+## 🚧 Work in progress
+
+New examples are added regularly as I continue learning and practicing software testing techniques.
+
+## 👤 Author
+
+jezierski999@gmail.com
+
+## 📝 License
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
